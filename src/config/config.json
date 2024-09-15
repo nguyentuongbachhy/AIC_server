@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "spring",
+    "password": "spring",
+    "database": "aichallenge",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "spring",
+    "password": "spring",
+    "database": "aichallenge",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "spring",
+    "password": "spring",
+    "database": "aichallenge",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
