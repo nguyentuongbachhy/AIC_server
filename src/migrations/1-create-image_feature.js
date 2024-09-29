@@ -27,6 +27,10 @@ module.exports = {
       frame_mapping_index: {
         type: Sequelize.INTEGER,
         allowNull: false
+      },
+      vector_features: {
+        type: Sequelize.BLOB,
+        allowNull: false
       }
     });
 

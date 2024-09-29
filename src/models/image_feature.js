@@ -34,6 +34,10 @@ module.exports = (sequelize, DataTypes) => {
     frame_mapping_index: {
       type: DataTypes.INTEGER,
       allowNull: false
+    },
+    vector_features: {
+      type: DataTypes.BLOB,
+      allowNull: false
     }
   }, {
     sequelize,
